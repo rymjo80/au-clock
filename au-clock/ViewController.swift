@@ -70,7 +70,8 @@ class ViewController: UIViewController {
     
     func stopTimerAndSetButtonTitle(_ title : String?) {
         timerButton.setTitle(title, for: .normal)
-        timer?.invalidate()
+        timeRemaining.text = "Time remaining: 00:00:00"
+        timer!.invalidate()
         timer = nil
     }
     
