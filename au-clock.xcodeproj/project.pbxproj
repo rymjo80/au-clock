@@ -13,6 +13,7 @@
 		56A5C8F5298A0E64001B79AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56A5C8F3298A0E64001B79AD /* Main.storyboard */; };
 		56A5C8F7298A0E65001B79AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56A5C8F6298A0E65001B79AD /* Assets.xcassets */; };
 		56A5C8FA298A0E65001B79AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56A5C8F8298A0E65001B79AD /* LaunchScreen.storyboard */; };
+		56A5C902299079D8001B79AD /* Guitar Song.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 56A5C901299079D8001B79AD /* Guitar Song.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		56A5C8F6298A0E65001B79AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		56A5C8F9298A0E65001B79AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		56A5C8FB298A0E65001B79AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56A5C901299079D8001B79AD /* Guitar Song.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Guitar Song.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		56A5C8EC298A0E64001B79AD /* au-clock */ = {
 			isa = PBXGroup;
 			children = (
+				56A5C901299079D8001B79AD /* Guitar Song.mp3 */,
 				56A5C8ED298A0E64001B79AD /* AppDelegate.swift */,
 				56A5C8EF298A0E64001B79AD /* SceneDelegate.swift */,
 				56A5C8F1298A0E64001B79AD /* ViewController.swift */,
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56A5C902299079D8001B79AD /* Guitar Song.mp3 in Resources */,
 				56A5C8FA298A0E65001B79AD /* LaunchScreen.storyboard in Resources */,
 				56A5C8F7298A0E65001B79AD /* Assets.xcassets in Resources */,
 				56A5C8F5298A0E64001B79AD /* Main.storyboard in Resources */,
