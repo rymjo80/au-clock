@@ -22,7 +22,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(currentDateAndTime), userInfo: nil, repeats: true)
-        countDownTimer.backgroundColor = UIColor.white
     }
     
     @objc func currentDateAndTime() {
